@@ -5,12 +5,16 @@
     font-family: Arial, sans-serif;
 }
 
+/*HEADER*/
+
 header {
-    background-color: #302c2c;
+    background-color: #114d4d;
     color: white;
     padding: 15px;
     display: left;
 }
+
+/*MAIN*/
 
 main {
     padding: 20px;
@@ -19,6 +23,9 @@ main {
 h1, h2 {
     margin: 0 0 15px;
 }
+
+/*PARTICIPANTS*/
+
 .about_us{
     background-color: #fff;
     padding: 20px;
@@ -28,7 +35,7 @@ h1, h2 {
    }
 .about_us:hover{
     transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     transition: all 0.2s;
 }
 
@@ -58,21 +65,22 @@ h1, h2 {
 .participant:hover {
     
     transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
     transition: all 0.2s;
 }
+
+/*JUSTIFICATION*/
 
 .justification{
     background-color: #fff;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;   
 }
 
 .justification:hover{
     transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     transition: all 0.2s;
 }
 
@@ -83,12 +91,13 @@ h1, h2 {
 
 }
 
+/*FOOTER*/
+
 footer {
-    background-color: #333;
+    background-color: #2d3839;
     color: white;
     text-align: center;
     padding: 10px;
-    position: absolute;
     bottom: 0;
     width: 100%;
 }
