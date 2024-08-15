@@ -55,6 +55,12 @@ h1, h2 {
     object-fit: cover;
     margin-bottom: 10px;
 }
+.participant:hover {
+    
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s;
+}
 
 .justification{
     background-color: #fff;
