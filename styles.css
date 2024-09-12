@@ -101,3 +101,23 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.participants {
+    display: flex;
+    justify-content: space-around; /* Espacio entre los participantes */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en la siguiente línea si es necesario */
+    margin-bottom: 20px;
+}
+
+.participant {
+    text-align: center;
+    width: 30%; /* Ajusta el ancho para que entren varios participantes en una fila */
+    margin: 10px;
+}
+
+.participant img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
