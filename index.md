@@ -1,4 +1,2 @@
----
-title: Data Mining Project 202430 - Deutsche Bahn
+Data Mining Project 202430 - Deutsche Bahn
 description: The selection of Kaggle's “Deutsche Bahn Delays” dataset is justified by its relevance, offering recent data on the German railway system collected in July 2024. This dataset provides a comprehensive overview, covering around 2000 stations throughout Germany with hourly information for a full week. The diverse data, including planned timetables, delays, geolocation, and station and line names, enables a comprehensive and multifaceted analysis of the railway system’s operations. Its origin in Deutsche Bahn's official APIs strongly suggests the reliability of the information. The dataset is particularly valuable for studies on punctuality, transport efficiency, and urban planning, with clear potential for practical applications in enhancing transport services. Additionally, the inclusion of stations of various categories and information on previous routes further enriches the analytical possibilities.
----
