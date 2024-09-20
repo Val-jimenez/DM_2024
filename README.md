@@ -1,1 +1,1 @@
-https://val-jimenez.github.io/DM_2024/
+https://k3nnyzy.github.io/DM_2024/EDA.html
