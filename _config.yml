@@ -1,7 +1,15 @@
-remote_theme: pages-themes/primer@v0.2.0
+# Use the latest version of the Primer theme from the GitHub Pages repository
+remote_theme: pages-themes/primer
+
+# Ensure the necessary plugins are listed
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one.
+  - jekyll-remote-theme  # Required for using a remote theme
+  - jekyll-seo-tag       # Add other plugins you're using here
+  
+# Configuration options for your site
 show_downloads: false
+
+# Navigation settings for your site
 navigation:
   - text: Home
     url: /
